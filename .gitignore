@@ -1,3 +1,6 @@
 .idea/
 .venv/
 /tasks.json
+__pycache__/
+*.pyc
+.pytest_cache/
