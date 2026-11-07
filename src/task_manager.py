@@ -29,7 +29,7 @@ class TaskManager:
         self.index = 1
 
         if Path(DATA_FILE).is_file():
-            with open(DATA_FILE, "r") as f:
+            with open(DATA_FILE, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 self.tasks = [Task(**t) for t in data]
 
@@ -38,7 +38,7 @@ class TaskManager:
 
     def save(self):
         tasks_data = [t.to_dict() for t in self.tasks]
-        with open(DATA_FILE, "w") as f:
+        with open(DATA_FILE, "w", encoding="utf-8") as f:
             json.dump(tasks_data, f, indent=2)
 
     def add(self, title, status):
