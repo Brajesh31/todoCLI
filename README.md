@@ -259,4 +259,12 @@ Keep changes small and aligned with the existing separation of responsibilities.
 
 See the repository's license file, if one is present. If no license file exists, the repository should not be assumed to grant permission to reuse or redistribute its code.
 
-Last updated: 2026-11-13 18:41 UTC
+
+## Documentation library
+
+- [User guide](docs/USER_GUIDE.md): command usage, examples, task management, and troubleshooting.
+- [Data format](docs/DATA_FORMAT.md): JSON schema, status values, identifiers, and persistence behavior.
+- [Architecture](docs/ARCHITECTURE.md): module boundaries and runtime flow.
+- [Development guide](docs/DEVELOPMENT.md): local workflow and verification strategy.
+- [Contributing](CONTRIBUTING.md) and [security policy](SECURITY.md).
+- [Community guidelines](CODE_OF_CONDUCT.md).
