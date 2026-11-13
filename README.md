@@ -1,3 +1,5 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white) ![CLI](https://img.shields.io/badge/Interface-CLI-informational) ![License](https://img.shields.io/badge/License-MIT-green) ![CI](https://github.com/Brajesh31/todoCLI/actions/workflows/ci.yml/badge.svg)
+
 # todoCLI
 
 A lightweight command-line task manager written in Python. todoCLI lets you create tasks, inspect them, change their workflow status, and remove individual tasks or groups of tasks from a terminal.
@@ -257,7 +259,7 @@ Keep changes small and aligned with the existing separation of responsibilities.
 
 ## License
 
-See the repository's license file, if one is present. If no license file exists, the repository should not be assumed to grant permission to reuse or redistribute its code.
+This repository is distributed under the MIT License. See [LICENSE](LICENSE) for the complete terms.
 
 
 ## Documentation library
