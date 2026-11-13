@@ -1,0 +1,30 @@
+name: Python CLI checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Compile Python modules
+        run: python -m compileall -q src
+      - name: Verify CLI entry point
+        working-directory: src
+        run: python main.py --help
+      - name: Verify status command
+        working-directory: src
+        run: python main.py status
