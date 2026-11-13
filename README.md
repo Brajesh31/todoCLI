@@ -268,3 +268,5 @@ See the repository's license file, if one is present. If no license file exists,
 - [Development guide](docs/DEVELOPMENT.md): local workflow and verification strategy.
 - [Contributing](CONTRIBUTING.md) and [security policy](SECURITY.md).
 - [Community guidelines](CODE_OF_CONDUCT.md).
+
+Last updated: 2026-11-13 18:43 UTC
