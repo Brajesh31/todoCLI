@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security reporting
+    url: https://github.com/Brajesh31/todoCLI/security/advisories/new
+    about: Report security concerns privately. Do not post private task data publicly.
+  - name: Contribution guidelines
+    url: https://github.com/Brajesh31/todoCLI/blob/main/CONTRIBUTING.md
+    about: Review the project workflow before opening a pull request.
